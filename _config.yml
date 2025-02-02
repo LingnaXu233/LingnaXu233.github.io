@@ -63,22 +63,23 @@ favicon: "🎲"
 sections:
   about:
     title: "About"
-    content: "I am a first-year PhD student at [Utah State University](https://www.usu.edu), exploring computational thinking and instructional technology." # Add about section content here
+    content: "I am a first-year PhD student at [Utah State University](https://www.usu.edu), exploring computational thinking and instructional technology. This section will detail my academic background and research interests."
 
   publications:
     title: "Publications"
-    content: "" # Add publications section content here
+    content: "Currently, I have no publications, but I will update this section as I progress through my PhD journey."
 
   teaching:
     title: "Teaching"
-    content: "" # Add teaching section content here
+    content: "I am currently a teaching assistant for ITLS 2500. I will add more details about my teaching experiences here."
 
   resources:
     title: "Resources"
-    content: "" # Add resources section content here
+    content: "This section will feature useful resources related to instructional technology, computational thinking, and learning sciences."
 
 # Additional configurations can go below
 ...
+
 
 
 # Exclude from processing.
