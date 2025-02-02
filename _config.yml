@@ -18,21 +18,68 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: lingna.xu@usu.edu
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  LingnaXu233
+title: Lingna Xu
+baseurl: "" # Leave this empty
+url: "" # Will use GitHub Pages domain
 
-# Build settings
-theme: minima
-plugins:
-  - jekyll-feed
+# Header Navigation
+header_links:
+  - title: "Home"
+    url: "/" # Redirects to the root of the website
+  - title: "About"
+    url: "#about"
+  - title: "Publications"
+    url: "#publications"
+  - title: "CV"
+    url: "/cv.html" # Separate page
+  - title: "Teaching"
+    url: "#teaching"
+  - title: "Resources"
+    url: "#resources"
+
+# Sidebar Information
+sidebar:
+  picture: "assets/images/profile.jpg" # Update with the actual image path
+  name: "Lingna Xu"
+  university: "Utah State University"
+  location:
+    text: "Logan, UT, USA"
+    icon: "assets/icons/location.png" # Map pin icon
+  email:
+    text: "lingna.xu@usu.edu"
+    icon: "assets/icons/email.png" # Envelope icon
+  links:
+    - label: "Google Scholar"
+      url: "https://scholar.google.com/citations?user=0d1AY2cAAAAJ&hl=en"
+      icon: "assets/icons/google-scholar.png" # Google Scholar icon
+    - label: "LinkedIn"
+      url: "https://www.linkedin.com/in/lingna-xu-045a43214/"
+      icon: "assets/icons/linkedin.png" # LinkedIn icon
+
+# Favicon and Icon
+favicon: "🎲"
+
+# Content Sections
+sections:
+  about:
+    title: "About"
+    content: "I am a first-year PhD student at [Utah State University](https://www.usu.edu), exploring computational thinking and instructional technology." # Add about section content here
+
+  publications:
+    title: "Publications"
+    content: "" # Add publications section content here
+
+  teaching:
+    title: "Teaching"
+    content: "" # Add teaching section content here
+
+  resources:
+    title: "Resources"
+    content: "" # Add resources section content here
+
+# Additional configurations can go below
+...
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
